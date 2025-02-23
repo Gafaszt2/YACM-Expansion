@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Pillar of Ashoka",
+		"uniqueTo": "Maurya",
+		"replaces": "Colosseum",
+		"culture": 1,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Babylonian Stele",
+		"uniqueTo": "Babylonians",
+		"replaces": "Monument",
+		"culture": 3,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+5]% Natural religion spread [in this city]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Grand Mosque",
+		"uniqueTo": "Saudi Arabia",
+		"replaces": "Grand Temple",
+		"cost": 115,
+		"culture": 1,
+		"faith": 12,
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+]
