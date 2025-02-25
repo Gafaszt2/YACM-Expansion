@@ -1,5 +1,246 @@
 [
 	{
+		"name": "The Ottomans",
+		"leaderName": "Suleiman I",
+		"adjective": ["Ottoman"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Suleiman I",
+
+        "startIntroPart1": "O Great Sultan Suleiman, may the God bless you! You are revered for your power, wealth and generosity, and you truly deserves to be called the 'Magnificent'! The Ottoman Empire was born in Bithynia, starting as a small country in Eastern Anatolia in 12th century, then expanded to west into Anatolia. Over the next century, your people vanquished the empire of Byzantium, annexing Turkey and the Balkans, and smartly assimilating all wonders and knowledge of the Byzantine civilization. In the mid 15th century, the Ottomans added Constantinople to their empire, establishing a strategic link between Europe and the Middle East. The Empire would continue to expand for centuries reaching North Africa, Middle East and Eastern Europe at its height, but brutally disappeared in the chaos of the first world war, in early 20th century.",
+        "startIntroPart2": "Mighty Caliph, your people ask you to build again the Empire, to the level of power and glory it once achieved, and beyond! Will you revive the Ottoman golden age? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Your continued insolence and failure to recognize our preeminence leads us to war.",
+		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
+		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
+		"introduction": "From the magnificence of Topkapi, the Ottoman nation greets you, stranger! I'm Suleiman, Kayser-I Rum, and I bestow upon you my welcome!",
+		"neutralHello": "Greetings!",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let us do business! Would you be interested?",
+
+        "outerColor": [245,248,185],
+        "innerColor": [18,84,30],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Mighty Conquerors",
+		"uniques": ["[-50]% maintenance costs <for [All] units>","[+2 Culture] from every [Holy Site]","[+20]% [Gold] [in all cities]"],
+		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
+			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
+			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
+			"Bitlis","Yalova"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+	{
+		"name": "Russia",
+		"leaderName": "Catherine",
+		"adjective": ["Russian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Catherine",
+
+
+        "startIntroPart1": "Hail to Imperial Majesty Catherine, Empress of all Russians. Living in the largest country in the world, from the Pacific Ocean in the east to the Baltic Sea in the west, your people endured wars, droughts, and many disasters, imbuing the Russian society with heroism and tenacity, and producing artists and scientists among the best in the world. Russia is a powerful empire which rightfully claims its place in the world concert of superpowers.",
+        "startIntroPart2": "Empress Catherine, your people are eager for Russian glory, to revive the sacred light of the Motherland. Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [239, 180, 0],
+		"innerColor": [0, 0, 0],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Siberia",
+		"uniques": ["Gain a free [Granary] [in all cities]","[+1 Gold, +1 Production] from [Tundra] tiles [in all cities]"],
+		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
+    },
+	{
+		"name": "Korea",
+		"leaderName": "Sejong",
+		"adjective": ["Korean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Sejong",
+
+        "startIntroPart1": "Greetings to you, King Sejong the Great, heir of the Choson Dynasty! Prosperity and benevolence towards the common man are the principles of your reign, and made of you the most beloved Korean king. You always aimed to provide a fair and equal society for all your people, and also to favor knowledge and technological discoveries. Your wisdom and intelligence imbued all the Korean society, and the scholars of the Jade Hall developed Korea's first written language, Hangul, sharing further literature and science to the people after centuries of darkness.",
+        "startIntroPart2": "Wise Sejong, will you gift your people with the radiance of harmony and knowledge to dispel the darkness once again? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Jip-hyun-jun (Hall of Worthies) will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
+		"defeated": "Now the question is who will protect my people. A dark age has come.",
+		"introduction": "Welcome to the palace of Choson, stranger. I am the learned King Sejong, who looks after his great people.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+		"outerColor": [42, 120, 189],
+		"innerColor": [255, 59, 59],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Scholars of the Jade Hall",
+        "uniques": ["[+30]% [Science] [in all cities] <during a Golden Age>","Receive a tech boost when scientific buildings/wonders are built in capital"],
+		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
+			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
+			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"],
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"]
+    },
+	{
+		"name": "Egypt",
+		"leaderName": "Ramesses II",
+		"adjective": ["Egyptian"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Ramesses II",
+
+        "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
+        "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
+
+		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Generous Egypt makes you this offer.",
+
+		"outerColor": [189, 33, 25],
+		"innerColor": [255, 241, 204],
+		"favoredReligion": "Islam",
+		"uniqueName": "Nile River",
+		"uniques": ["[+2 Culture] in cities on [River] tiles","[+10]% Production when constructing [Food] buildings [in all cities]","[+10]% Production when constructing [Culture] buildings [in all cities]"],
+		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+			   "Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
+			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+	{
+		"name": "Xia",
+		"leaderName": "Yu",
+		"adjective": ["Xia"],
+		"startBias": ["Jungle","River"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [246, 255, 196],
+		"innerColor": [27, 28, 21],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "The Yellow River",
+		"uniques": ["[+1 Food, +1 Production] in cities on [River] tiles","[+20]% Production when constructing [Production] wonders [in all cities]"],
+		"cities": ["Yangcheng", "Chu", "Qiongshi", "Zhenxun", "Diqiu", "Jiyuan", "Laoqiu", "Xihe", "Zhen", "Anyi"],
+	},
+	{
+		"name": "Great Qing",
+		"leaderName": "Kangxi",
+		"adjective": ["Great Qing"],
+		"startBias": ["Jungle","Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 229, 99],
+		"innerColor": [45, 109, 227],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Self-Strengthening Reforms",
+		"uniques": ["[+25]% growth [in all cities]","Gain [25] [Culture] <upon entering a Golden Age>"],
+		"cities": ["Beijing", "Guangzhou", "Nanjing", "Suzhou", "Wuchang", "Changsha", "Shanghai", "Shenyang", "Lanzhou", "Kunming", "Fuzhou", "Chengdu", "Hankou", "Taipei", "Qingdao", "Guiyang", "Shenzhen", "Harbin"],
+	},
+	{
+		"name": "Great Ming",
+		"leaderName": "Yongle",
+		"adjective": ["Great Ming"],
+		"startBias": ["Jungle","Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [252, 237, 215],
+		"innerColor": [64, 59, 52],
+		"favoredReligion": "Taoism",
+		"uniqueName": "Imperial Eunuchs",
+		"uniques": ["[+1 Culture] [in all cities] <when espionage is enabled>","Gifts of Gold to City-States generate [+35]% more Influence","Allied City-States provide [Culture] equal to [+60]% of what they produce for themselves"],
+		"cities": ["Nanjing",
+"Shuntian",
+"Fuzhou",
+"Guangzhou",
+"Guilin",
+"Guiyang",
+"Kaifeng",
+"Wuchang",
+"Nanchang"],
+	},
+	{
+		"name": "The Iceni",
+		"leaderName": "Boudicca",
+		"adjective": ["Iceni"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		"personality": "Boudicca",
+
+        "startIntroPart1": "May glory and honor always be upon you, Warrior Queen! In a time dominated by men, you successfully claimed the throne and the power, but also valiantly defied the mighty Roman Empire. Punished and humiliated by the hand of the Roman bloody invaders, you united your people and led a terrible revolt, to seek revenge. Many legions fell under your fierce attacks and you burned the city of London with your anger. While the Romans still kept ownership of your land after your final defeat, your actions nonetheless showed Rome that this land could never be fully conquered, making Nero himself consider to withdraw all troops and leaving Britain forever.",
+        "startIntroPart2": "O raging lioness, will you lead the Celts again under the glory of your name, to spread the fires of liberty, and achieve a final victory? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen. We ride to war!",
+		"attacked": "Traitorous man! The Iceni peoples will not stand for such wanton abuse and slander - I shall have your balls!",
+		"defeated": "Vile ruler, know you have won this war in name alone. Your cities lie buried and your troops defeated. I have my own victory.",
+		"introduction": "I am Boudicca, Queen of the Iceni. Let no-one underestimate me!",
+		"tradeRequest": "Let us join our forces together and reap the rewards.",
+
+		"neutralHello": "God has given good to you.",
+
+		"hateHello": "Well?",
+        "outerColor": [50, 168, 82],
+        "innerColor": [232, 250, 237],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Boudican Revolt",
+		"uniques": ["[+1 Food, +1 Faith] from [Marsh] tiles [in all cities]","[+10]% Strength <for [All] units>"],
+		"cities": ["Venta Icenorum", "Caister", "Thetford", "Snettisham", "Ixworth", "Toftrees", "Glayton Thorpe", "Woodcock Hill", "Brettenham", "Cockley Cley", "Stanton Chair"],
+        "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
+    },
+	{
 		"name": "India",
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"],

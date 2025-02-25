@@ -1,5 +1,37 @@
 [
 	{
+		"name": "Mandarin Trade Route",
+		"uniqueTo": "Xia",
+		"replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Trading post] improvement on a specific tile"],
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Naval War College",
+		"uniqueTo": "Great Qing",
+		"replaces": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["Gain a free [Armory] [in this city]","[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+25]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Silversmith",
+		"uniqueTo": "The Iceni",
+		"replaces": "Mint",
+		"culture": 2,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
 		"name": "Pillar of Ashoka",
 		"uniqueTo": "Maurya",
 		"replaces": "Colosseum",
